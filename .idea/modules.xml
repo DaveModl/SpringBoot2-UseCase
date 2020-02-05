@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Aop-Demo/Aop-Demo.iml" filepath="$PROJECT_DIR$/Aop-Demo/Aop-Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Jpa-Demo/Jpa-Demo.iml" filepath="$PROJECT_DIR$/Jpa-Demo/Jpa-Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mvc-Demo/Mvc-Demo.iml" filepath="$PROJECT_DIR$/Mvc-Demo/Mvc-Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Thymeleaf-Demo/Thymeleaf-Demo.iml" filepath="$PROJECT_DIR$/Thymeleaf-Demo/Thymeleaf-Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-Demo1/springboot-Demo1.iml" filepath="$PROJECT_DIR$/springboot-Demo1/springboot-Demo1.iml" />
+    </modules>
+  </component>
+</project>

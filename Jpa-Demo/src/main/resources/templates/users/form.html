@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>用户表单</title>
+</head>
+<body>
+<div th:replace="~{fragments/header :: header}"></div>
+<h3 th:text="${usersModel.title}">Dave</h3>
+<form action="/users" th:action="@{/users}" method="post" th:object="${usersModel.user}">
+    <input type="hidden" name="id" th:value="*{id}">
+    Name<br>
+    <input type="text" name="name" th:value="*{name}"><br>
+    E-mail<br>
+    <input type="text" name="email" th:value="*{email}">
+    <input type="submit" value="提交">
+</form>
+<div th:replacec="~{fragments/footer :: footer}"></div>
+</body>
+</html>

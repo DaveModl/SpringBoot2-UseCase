@@ -1,0 +1,19 @@
+实体对应关系
+一对一 人--身份证
+一对多 人--工作
+多对一 反向
+多对多 作者 <link>书
+
+@OneToOne
+@OneToMany
+@ManyToMany
+
+JPA
+JpaRepository<T,M>
+CrudRepository<T,M>
+PagingAndSortingRepository
+
+
+自定义接口
+@RepositoryDefinition
+@NoRepositoryBean
